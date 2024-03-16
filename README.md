@@ -19,3 +19,5 @@ The complete calibration dataset and results can be found in the following folde
 - [calibration](calibraton)
 
 Additionally, we provide a sample code snippet for plotting the calibration results.
+
+(calibraton/calibration_results.png)
