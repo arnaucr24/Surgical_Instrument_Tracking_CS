@@ -20,4 +20,4 @@ The complete calibration dataset and results can be found in the following folde
 
 Additionally, we provide a sample code snippet for plotting the calibration results.
 
-[](calibraton/calibration_results.png)
+![](calibraton/calibration_results.png)
