@@ -16,6 +16,6 @@ Proper calibration is crucial for accurate 3D pose estimation. After experimenti
 The complete calibration dataset and results can be found in the following folders:
 
 - [dataset1](link_to_dataset1_folder)
-- [calibration](link_to_calibration_folder)
+- [calibration](calibraton)
 
 Additionally, we provide a sample code snippet for plotting the calibration results.
