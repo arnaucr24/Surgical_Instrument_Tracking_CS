@@ -13,11 +13,15 @@ Proper calibration is crucial for accurate 3D pose estimation. After experimenti
 2. **Stereo Calibration:** Using Matlab's stereo calibration tool, we estimate the pose of each camera pair in the camera_0 coordinate frame.
 3. **Camera_3 Position Estimation:** Due to challenges in synchronizing images, we algebraically derived the transformation for camera_3 using stereo pairs 1-3 and 2-3.
 
+Our calibration process yielded feasible results for the acquisition system used, with reprojection errors consistently below 0.3 for mono calibrations and below 0.6 for stereo calibrations. Further processing was undertaken to visualize camera poses accurately, compensating for the rotational adjustments.
+
 The complete calibration dataset and results can be found in the following folders:
 
 - [dataset1](link_to_dataset1_folder)
-- [calibration](calibraton)
+- [calibration](calibration)
 
 Additionally, we provide a sample code snippet for plotting the calibration results.
+
+- [plot_pose](calibration)
 
 ![](calibraton/calibration_results.png)
